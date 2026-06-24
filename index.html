@@ -44,8 +44,9 @@
 
   .eyebrow{font-family:var(--f-sans);font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-soft);font-weight:500}
 
-  .lead{font-family:var(--f-serif);font-size:1.7rem;font-size:clamp(1.5rem,4.1vw,2.1rem);font-weight:500;line-height:1.3;letter-spacing:.004em;color:var(--ink);max-width:58ch}
-  @media (max-width:767px){.lead{max-width:50ch;text-wrap:balance}.lead br{display:none}}
+  .lead{font-family:var(--f-serif);font-size:1.7rem;font-size:clamp(1.5rem,4.1vw,2.1rem);font-weight:500;line-height:1.3;letter-spacing:.004em;color:var(--ink);max-width:50ch;text-wrap:balance}
+  .lead br{display:none}
+  @media (min-width:1000px){.lead{max-width:none;text-wrap:initial}.lead br{display:inline}}
 
   .body{font-family:var(--f-body);font-size:1.05rem;font-size:clamp(1rem,2.55vw,1.1rem);line-height:1.74;color:var(--read);font-weight:400;max-width:82ch}
   .body span{display:block}
